@@ -1,4 +1,4 @@
-@import url(https://db.onlinewebfonts.com/c/cc84650569fd07dac022c55b20c66e46?family=Futura+Bk+BT+Book);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -960,10 +960,6 @@ video {
   text-align: center;
 }
 
-.font-futura{
-  font-family: Futura Bk BT;
-}
-
 .font-opensans{
   font-family: Open Sans, sans-serif;
 }
@@ -972,8 +968,12 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.font-raleway{
+  font-family: Raleway, sans-serif;
+}
+
 .text-2xl{
-  font-size: clamp(50px, 5vw, 65px);
+  font-size: clamp(45px, 5vw, 65px);
 }
 
 .text-\[13px\]{
@@ -989,7 +989,7 @@ video {
 }
 
 .text-md{
-  font-size: clamp(24px, 5vw, 28px);
+  font-size: clamp(20px, 5vw, 28px);
 }
 
 .text-sm{
@@ -997,7 +997,7 @@ video {
 }
 
 .text-xl{
-  font-size: clamp(45px, 5vw, 56px);
+  font-size: clamp(40px, 5vw, 56px);
 }
 
 .text-xs{
