@@ -9,17 +9,18 @@ module.exports = {
         light: '#E4E4E4'
       },
       fontSize: {
-        '2xl': '60px',
-        xl: '56px',
+        '2xl': 'clamp(50px, 5vw, 65px)',
+        xl: 'clamp(45px, 5vw, 56px)',
         lg: '30px',
-        md: '28px',
+        md: 'clamp(24px, 5vw, 28px)',
         sm: '20px',
         xs: '18px',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         futura: ['Futura Bk BT'],
-        opensans: [ 'Open Sans, sans-serif']
+        opensans: [ 'Open Sans, sans-serif'],
+        
       }
     },
   },
